@@ -1,6 +1,6 @@
 body{
 	font-family: Helvetica, Arial, sans-serif;
-	  background-color: #666;
+	  background-color: #36454f;
 
 }
 * {
@@ -8,7 +8,7 @@ body{
 }
 .row {
 	  margin-bottom: 5px;
-	  background-color: #666;
+	  background-color: #36454f;
 }
 
 .row > div {
@@ -75,8 +75,17 @@ footer{
 	height: 75px;
 	float:left;
 	margin-right: 10px;
+	margin-bottom: 10px;
 }
 .other{
 	font-size: 14px;
 	color: #fff;
+}
+
+.row div{
+	padding: 50px;
+}
+
+footer{
+	text-align: center;
 }
