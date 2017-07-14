@@ -1,16 +1,18 @@
-html{
+body{
 	font-family: Helvetica, Arial, sans-serif;
-	  background-color: #edece8;
+	  background-color: #666;
 
 }
-
+* {
+	box-sizing: border-box;
+}
 .row {
 	  margin-bottom: 5px;
-	  background-color: #edece8;
+	  background-color: #666;
 }
 
 .row > div {
-  color: #666;
+  color: #fff;
 
 }
 
@@ -19,18 +21,13 @@ html{
 
 }
 
-.logo-main{
-	height: 100%;
-	background: red;
-}
 
-.option{
-	padding-top: 65px;
-	font-size: 20px;
+.main-content h1{
+	font-size: 2em;
 }
-
 .main-content{
 	padding: 20px;
+	font-size:1.75em;
 }
 
 footer{
@@ -47,4 +44,39 @@ footer{
 
 .end{
 	display: inline-block;
+}
+
+.design, .dev{
+	list-style: none;
+}
+
+.dev{
+	padding: 0 10px;
+}
+.dev-skill{
+	width: 105px;
+	height: 105px;
+	display: inline-block;
+	font-size: 14px;
+	line-height: 7;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	text-align: center;
+	margin: 10px 10px 10px 0;
+	padding: 0;
+}
+
+.dev-skill{
+
+}
+
+.design-img{
+	width:75px;
+	height: 75px;
+	float:left;
+	margin-right: 10px;
+}
+.other{
+	font-size: 14px;
+	color: #fff;
 }
