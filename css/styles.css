@@ -1,3 +1,5 @@
+/*convert to SASS*/
+
 body{
 	font-family: Helvetica, Arial, sans-serif;
 	  background-color: #36454f;
@@ -9,9 +11,6 @@ body{
 .row {
 	  margin-bottom: 5px;
 	  background-color: #36454f;
-}
-
-.row > div {
   color: #fff;
 
 }
@@ -52,6 +51,7 @@ footer{
 
 .dev{
 	padding: 0 10px;
+	color: #fff;
 }
 .dev-skill{
 	width: 105px;
@@ -88,4 +88,31 @@ footer{
 
 footer{
 	text-align: center;
+}
+
+
+h1, h2{
+	clear: both;
+}
+h1::after{
+	content: "";
+	display: block;
+	margin: 25px 0;
+
+	position: relative;
+	border: 1px solid #fff;
+	width: 5%;
+}
+
+.spec{
+	text-align: center;
+}
+
+.spec p{
+	font-size: .75em;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+	color: inherit;
 }
