@@ -10,6 +10,7 @@ body{
 	box-sizing: border-box;
 }
 
+
 .container-fluid{
 	padding: 0;
 }
@@ -20,12 +21,24 @@ body{
 
 }
 
-#top-header{
-	height: 100px;
-
+.banner{
+	width: 100%;
+	height: 540px;
 }
 
+.banner img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	z-index: 1;
+	display: inline-block;
+}
 
+.name, .headline{
+	z-index: 999;
+	display: block;
+	position: relative;
+}
 .main-content h1{
 	font-size: 2em;
 }
@@ -85,7 +98,7 @@ footer{
 }
 
 .bio, .experience, .skills, .specialties{
-	padding: 50px 6%;
+	padding: 50px 10%;
 }
 
 footer{
@@ -123,7 +136,7 @@ a:hover, a:active{
 }
 
 .experience, .specialties{
-	background-color: #e9dccd;
+	background-color: #36454f;
 	color: #666;
 }
 
@@ -132,3 +145,4 @@ a:hover, a:active{
 	width: 100%;
 	height: 100%;
 }
+
