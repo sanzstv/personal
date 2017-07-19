@@ -28,11 +28,10 @@ body{
 }
 
 .head-container{
-	width: 40%;
 	float: left;
 	clear: both;
 	position: absolute;
-	margin: 200px 0 0px 25%;
+	margin: 200px 0 0px 10%;
 }
 
 .name, .headline{
