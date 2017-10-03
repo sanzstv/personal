@@ -121,6 +121,9 @@ footer{
 	text-align: center;
 }
 
+footer p{
+	margin: 0;
+}
 
 h1, h2{
 	clear: both;
@@ -171,7 +174,7 @@ a:hover, a:active{
 
 .experience{
 	/*36454f*/
-	background-color: #82a1a1;
+	background-color: #455555;
 	color: #fff;
 }
 
@@ -187,3 +190,17 @@ a:hover, a:active{
 	height: 100%;
 }
 
+.ss{
+	/*! height: 150px; */
+	float: left;
+	width: 25%;
+}
+.project{
+	clear: both;
+}
+.project .info{
+	float: left;
+	display: block;
+	width: 74%;
+	padding-left: 20px;
+}
